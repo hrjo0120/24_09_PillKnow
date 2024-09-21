@@ -1,0 +1,490 @@
+@font-face {
+	font-family: 'Pretendard-Regular';
+	src:
+		url('https://fastly.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff')
+		format('woff');
+	font-weight: 400;
+	font-style: normal;
+}
+
+.Pretendard-Regular * {
+	font-family: 'Pretendard-Regular', sans-serif;
+}
+
+html>body {
+	font-family: 'Pretendard-Regular', sans-serif;
+}
+
+.header-unlogined, .header-unlogined * {
+	box-sizing: border-box;
+}
+
+.unlogined_main {
+	background: #ffffff;
+	height: 3430px;
+	position: relative;
+	overflow: hidden;
+}
+
+/* 헤더 */
+.header {
+	/* display:flex; */
+	background: #ffe08c;
+	height: 70px;
+	position: relative;
+	overflow: hidden;
+}
+
+.logo-image {
+	width: 187px;
+	height: 47px;
+	position: absolute;
+	left: calc(50% - 575px);
+	top: 12px;
+	object-fit: cover;
+}
+
+.menu-item {
+	display: flex;
+	flex-direction: row;
+	gap: 25px;
+	align-items: flex-end;
+	justify-content: center;
+	width: 285px;
+	position: absolute;
+	left: calc(50% - -324px);
+	top: 23.5px;
+}
+
+.menu-item-text {
+	color: #000000;
+	text-align: left;
+	font-size: 20px;
+	font-weight: 700;
+	position: relative;
+}
+
+/* 메인화면 */
+.main-container {
+	position: relative;
+	inset: 0;
+	width: 100vw;
+	height: 100vh;
+}
+
+.background-image {
+	background-image: url('/images/main_image.jpg');
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+.overlay {
+	background: rgba(0, 0, 0, 0.4);
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+.text-container {
+	padding: 10px;
+	display: flex;
+	flex-direction: row;
+	gap: 10px;
+	align-items: center;
+	justify-content: center;
+	position: absolute;
+	left: 50%;
+	top: 40%;
+	transform: translate(-50%, -50%);
+}
+
+.headline-text {
+	color: #ffffff;
+	text-align: center;
+	font-size: 30px;
+	font-weight: 700;
+	line-height: 2.5;
+}
+
+.scroll-indicator {
+	display: flex;
+	flex-direction: column;
+	gap: 12px;
+	align-items: center;
+	justify-content: flex-start;
+	width: 54px;
+	position: absolute;
+	left: 50%;
+	transform: translateX(-50%);
+	bottom: 80px;
+}
+
+.scroll-text {
+	color: #000000;
+	text-align: left;
+	font-size: 20px;
+	font-weight: 700;
+}
+
+/* 회원가입 유도 배너 */
+.join-banner {
+	background: #fff3d1;
+	border-radius: 20px;
+	height: 150px;
+	position: absolute;
+	right: 210px;
+	left: 210px;
+	top: calc(100% + 54px); /* 메인 컨테이너의 하단에서 54px 떨어지게 설정 */
+	overflow: hidden;
+}
+
+.ingredients-image {
+	width: 135px;
+	height: 135px;
+	position: absolute;
+	left: calc(50% - 439px);
+	top: 8px;
+	object-fit: cover;
+}
+
+.join-text {
+	color: #000000;
+	text-align: left;
+	font-size: 26px;
+	font-weight: 700;
+	position: absolute;
+	left: calc(50% - 275px);
+	top: 60px;
+}
+
+/* 인기성분_section */
+.popular-ingredient-section {
+	position: absolute;
+	right: 210px;
+	left: 210px;
+	top: calc(100% + 54px + 150px + 80px); /* 회원가입 배너 하단에서 80px 떨어지게 설정 */
+	padding-bottom: 60px; /* 아래쪽에 여백 추가하여 더보기 버튼 공간 확보 */
+	padding-right: auto;
+	padding-left: auto;
+}
+
+.popular-ingredient-phrase {
+	padding: 10px;
+	display: flex;
+	flex-direction: row;
+	gap: 10px;
+	align-items: center;
+	justify-content: center;
+	width: 200px;
+	margin: 0 auto;
+}
+
+.popular-ingredient-text {
+	text-align: center;
+	font-size: 26px;
+	font-weight: 700;
+	position: relative;
+	display: inline-block; /* flex 대신 inline-block 사용 */
+	white-space: nowrap; /* 공백으로 인한 줄바꿈 방지 */
+}
+
+.popular-ingredient-span-1 {
+	color: #ffbb04;
+	font-size: 26px;
+	font-weight: 700;
+}
+
+.popular-ingredient-span-2 {
+	color: #5d5d5d;
+	font-size: 26px;
+	font-weight: 700;
+}
+
+.ingredients {
+	display: flex;
+	flex-direction: row;
+	gap: 30px;
+	flex-wrap: wrap;
+	width: 1020px;
+	margin: 20px auto;
+}
+
+.ingredient-name {
+	background: #ffffff;
+	border-radius: 10px;
+	border-style: solid;
+	border-color: #d9d9d9;
+	border-width: 2px;
+	padding: 10px;
+	width: 180px;
+	height: 180px;
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+	align-items: center;
+	justify-content: center;
+	box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.ingredient-name-text {
+	color: #000000;
+	text-align: center;
+	font-size: 20px;
+	line-height: 24px;
+	font-weight: 500;
+}
+
+.more {
+	padding: 10px 0;
+	display: flex;
+	flex-direction: row;
+	gap: 10px;
+	align-items: center;
+	justify-content: center;
+	position: absolute;
+	left: calc(50% - -410px);
+	top: 471px;
+	margin-top: 20px;
+	padding-bottom: 60px;
+}
+
+.more-text {
+	color: #9e9e9e;
+	font-size: 20px;
+	line-height: 24px;
+	font-weight: 700;
+	text-align: right; /* 텍스트를 가운데 정렬 */
+}
+
+/* 건강 고민_section*/
+.health-concerns-section {
+	position: absolute;
+	right: 210px;
+	left: 210px;
+	top: calc(100% + 54px + 150px + 80px + 515px + 80px);
+	padding-bottom: 60px;
+	padding-right: auto;
+	padding-left: auto;
+}
+
+.health-concerns-phrase {
+	padding: 10px;
+	display: flex;
+	flex-direction: row;
+	gap: 10px;
+	align-items: center;
+	justify-content: center;
+	width: 600px;
+	margin: 0 auto;
+}
+
+.health-concerns-text {
+	color: #5d5d5d;
+	text-align: center;
+	font-size: 26px;
+	font-weight: 700;
+	position: relative;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.health-concerns {
+	display: flex;
+	flex-direction: row;
+	gap: 30px;
+	flex-wrap: wrap;
+	width: 1020px;
+	margin: 20px auto;
+}
+
+.health-concerns-name {
+	background: #ffffff;
+	border-radius: 10px;
+	border-style: solid;
+	border-color: #d9d9d9;
+	border-width: 2px;
+	padding: 10px;
+	display: flex;
+	flex-direction: column;
+	gap: 20px;
+	align-items: center;
+	justify-content: center;
+	flex-shrink: 0;
+	width: 180px;
+	height: 180px;
+	position: relative;
+	box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+/* 건강 고민 이미지 공통속성 */
+.health-concerns-img {
+	flex-shrink: 0;
+	width: 45px;
+	height: 45px;
+	position: relative;
+	object-fit: cover;
+	background-size: cover;
+	background-position: center;
+}
+
+.health-concerns-name-text {
+	color: #000000;
+	text-align: center;
+	font-size: 20px;
+	line-height: 24px;
+	font-weight: 500;
+	position: relative;
+	align-self: stretch;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.fatigue {
+	background-image:
+		url("https://imgproxy.pillyze.io/ZMRFlYGcp8jgvkT0hiNtU6ZjmJTVf1hcUw4YnIZI0EU/rs:fill:100:100/czM6Ly9waWxseXplLXByZC1pbWFnZS9pY29ucy9oaWdzL2ZhdGlndWUucG5n");
+}
+
+.eyes {
+	background-image:
+		url("https://imgproxy.pillyze.io/hlGUVSeFIjT1R2qL8SZ-X1yJF2AWOaUja2gA6zENZP8/rs:fill:100:100/czM6Ly9waWxseXplLXByZC1pbWFnZS9pY29ucy9oaWdzL2V5ZXMucG5n");
+}
+
+.skincare {
+	background-image:
+		url("https://imgproxy.pillyze.io/9hxxZJcJXEN140bUHh9E3c1lQcp1Wbefbw0Rmnpt3Wo/rs:fill:100:100/czM6Ly9waWxseXplLXByZC1pbWFnZS9pY29ucy9oaWdzL3NraW5jYXJlLnBuZw");
+}
+
+.fat {
+	background-image:
+		url("https://imgproxy.pillyze.io/dkJw00WkM2gzj6zx85N-Hw8Na3X1_G4V-VNnTKO8wnY/rs:fill:100:100/czM6Ly9waWxseXplLXByZC1pbWFnZS9pY29ucy9oaWdzL2ZhdC5wbmc");
+}
+
+.blood-circulation {
+	background-image:
+		url("https://imgproxy.pillyze.io/rB1Q3HjFQm_teat6bKTSEZ34JiZRzUZw0BE5D1L_0fE/rs:fill:100:100/czM6Ly9waWxseXplLXByZC1pbWFnZS9pY29ucy9oaWdzL2Jsb29kX2NpcmN1bGF0aW9uLnBuZw");
+}
+
+.liver {
+	background-image:
+		url("https://imgproxy.pillyze.io/U42UAa-cp39jAGzftu9OzLrtJ9Cz-kijMpJGAsHfTfw/rs:fill:100:100/czM6Ly9waWxseXplLXByZC1pbWFnZS9pY29ucy9oaWdzL2xpdmVyLnBuZw");
+}
+
+.intestine {
+	background-image:
+		url("https://imgproxy.pillyze.io/xmFVESTN45bxZGMpCMw0pp8UQReukauvhiktsvvJ-0M/rs:fill:100:100/czM6Ly9waWxseXplLXByZC1pbWFnZS9pY29ucy9oaWdzL2ludGVzdGluZS5wbmc");
+}
+
+.sleep {
+	background-image:
+		url("https://imgproxy.pillyze.io/ldlFd0lIfxK6m0ocgqsmsar75vym5plnu3eP558xNao/rs:fill:100:100/czM6Ly9waWxseXplLXByZC1pbWFnZS9pY29ucy9oaWdzL3NsZWVwLnBuZw");
+}
+
+.immunity {
+	background-image:
+		url("https://imgproxy.pillyze.io/ycxN-UcS2CMAgOoBMpOSlkGtQO-5EQTD57Qgv3d5TjE/rs:fill:100:100/czM6Ly9waWxseXplLXByZC1pbWFnZS9pY29ucy9oaWdzL2ltbXVuaXR5LnBuZw");
+}
+
+.cholesterol {
+	background-image:
+		url("https://imgproxy.pillyze.io/kZQfKpEN1aePQh_mmtVq6x6it8_yXf-hLvkpcf-1lSY/rs:fill:100:100/czM6Ly9waWxseXplLXByZC1pbWFnZS9pY29ucy9oaWdzL2Nob2xlc3Rlcm9sLnBuZw");
+}
+
+.bones {
+	background-image:
+		url("https://imgproxy.pillyze.io/db4H5Es2BAexMxmVzlACxzC1L9kLQemmsawI9CNPjSY/rs:fill:100:100/czM6Ly9waWxseXplLXByZC1pbWFnZS9pY29ucy9oaWdzL2JvbmVzMi5wbmc");
+}
+
+.anti-aging {
+	background-image:
+		url("https://imgproxy.pillyze.io/0dtK5dYrsf4vU8VoK5W_qtUxytCyecT_d_DTqOlkcXY/rs:fill:100:100/czM6Ly9waWxseXplLXByZC1pbWFnZS9pY29ucy9oaWdzL2FudGktYWdpbmcucG5n");
+}
+
+.women {
+	background-image:
+		url("https://imgproxy.pillyze.io/q0M09XsdLPKjk8HI9eEN04NgMMLxzWU0Yc5GnNsuyF4/rs:fill:100:100/czM6Ly9waWxseXplLXByZC1pbWFnZS9pY29ucy9oaWdzL3dvbWVuLnBuZw");
+}
+
+.stomach {
+	background-image:
+		url("https://imgproxy.pillyze.io/bHlVxdaNQd6uc11mkXVq-WeSVX3dmqDmckjeOSZMTX0/rs:fill:100:100/czM6Ly9waWxseXplLXByZC1pbWFnZS9pY29ucy9oaWdzL3N0b21hY2gucG5n");
+}
+
+.men {
+	background-image:
+		url("https://imgproxy.pillyze.io/DcuMbV8F2YPJKBBkJCPrGevac7nu-_9ArXqKCoWF6qw/rs:fill:100:100/czM6Ly9waWxseXplLXByZC1pbWFnZS9pY29ucy9oaWdzL21lbi5wbmc");
+}
+
+.blood_pressure {
+	background-image:
+		url("https://imgproxy.pillyze.io/76KNDnfgnkUzTgBioLm_N84OyzwiM17oTVyBb7SFdDo/rs:fill:100:100/czM6Ly9waWxseXplLXByZC1pbWFnZS9pY29ucy9oaWdzL2Jsb29kX3ByZXNzdXJlLnBuZw");
+}
+
+.strength {
+	background-image:
+		url("https://imgproxy.pillyze.io/atB_jiWzEiNi-iN2OnnrcOUNvtrZn_dWypwPRllgXkk/rs:fill:100:100/czM6Ly9waWxseXplLXByZC1pbWFnZS9pY29ucy9oaWdzL3N0cmVuZ3RoLnBuZw");
+}
+
+.brain {
+	background-image:
+		url("https://imgproxy.pillyze.io/MFuRGlartQIX5LX5vd41oaQLN7NK4FlfRb3ctpEm0js/rs:fill:100:100/czM6Ly9waWxseXplLXByZC1pbWFnZS9pY29ucy9oaWdzL2JyYWluLnBuZw");
+}
+
+.blood_sugar {
+	background-image:
+		url("https://imgproxy.pillyze.io/ueQnM7QZ_04uOH7gliNGOwFTqy3yO-Li-I9u9VzQA7M/rs:fill:100:100/czM6Ly9waWxseXplLXByZC1pbWFnZS9pY29ucy9oaWdzL2Jsb29kX3N1Z2FyLnBuZw");
+}
+
+.neutral_fat {
+	background-image:
+		url("https://imgproxy.pillyze.io/kZQfKpEN1aePQh_mmtVq6x6it8_yXf-hLvkpcf-1lSY/rs:fill:100:100/czM6Ly9waWxseXplLXByZC1pbWFnZS9pY29ucy9oaWdzL2Nob2xlc3Rlcm9sLnBuZw");
+}
+
+.tooth {
+	background-image:
+		url("https://imgproxy.pillyze.io/zSvVwv0pJY-GPW2tuhsf1-IHSH7Jqx_ygo4UPRQKREg/rs:fill:100:100/czM6Ly9waWxseXplLXByZC1pbWFnZS9pY29ucy9oaWdzL3Rvb3RoLnBuZw");
+}
+
+.pregnant {
+	background-image:
+		url("https://imgproxy.pillyze.io/VEQ70eVSCWQ-d-oHhsSNTfAPtA49jX-gbZlThGS9zBo/rs:fill:100:100/czM6Ly9waWxseXplLXByZC1pbWFnZS9pY29ucy9oaWdzL3ByZWduYW50LnBuZw");
+}
+
+.hair_loss {
+	background-image:
+		url("https://imgproxy.pillyze.io/I8HSfgYXVdBb7zHaG9sPl4Zlp4hynkg94Fjsm7e8K7Y/rs:fill:100:100/czM6Ly9waWxseXplLXByZC1pbWFnZS9pY29ucy9oaWdzL2hhaXJfbG9zcy5wbmc");
+}
+
+.joint {
+	background-image:
+		url("https://imgproxy.pillyze.io/mxvTxbMtPCqn5cISM6AxfrK2XFCQG3gFoqXklu-FH1w/rs:fill:100:100/czM6Ly9waWxseXplLXByZC1pbWFnZS9pY29ucy9oaWdzL2pvaW50LnBuZw");
+}
+
+.menopause {
+	background-image:
+		url("https://imgproxy.pillyze.io/Dewk3IlumtR5hUS02edPNi8uSREyPMEU-CL31j8qHNc/rs:fill:100:100/czM6Ly9waWxseXplLXByZC1pbWFnZS9pY29ucy9zaWRlX2VmZmVjdHMvbWVub3BhdXNlLnBuZw");
+}
+
+.breath {
+	background-image:
+		url("https://imgproxy.pillyze.io/twSYw4y256mq_JdGUIf-rmCUJndn9X95xfkrbZbYMao/rs:fill:100:100/czM6Ly9waWxseXplLXByZC1pbWFnZS9pY29ucy9oaWdzL2JyZWF0aC5wbmc");
+}
+
+.thyroid {
+	background-image:
+		url("https://imgproxy.pillyze.io/0dXEHLf-lYAgVVmOhGgYKwFFs3PEWjTrin_5AF4Rvbs/rs:fill:100:100/czM6Ly9waWxseXplLXByZC1pbWFnZS9pY29ucy9oaWdzL3RoeXJvaWQucG5n");
+}
+
+.anemia {
+	background-image:
+		url("https://imgproxy.pillyze.io/liFTLnRRqcU8ptnEkyT0340I5L_WqLds8TXlo8iBfsU/rs:fill:100:100/czM6Ly9waWxseXplLXByZC1pbWFnZS9pY29ucy9oaWdzL2FuZW1pYS5wbmc");
+}
