@@ -26,6 +26,154 @@ html>body {
 	overflow: hidden;
 }
 
+/* 이미지 파일 모음 */
+
+.logo-image {
+	width: 187px;
+	height: 47px;
+	object-fit: cover;
+}
+
+.fatigue {
+	background-image:
+		url("https://imgproxy.pillyze.io/ZMRFlYGcp8jgvkT0hiNtU6ZjmJTVf1hcUw4YnIZI0EU/rs:fill:100:100/czM6Ly9waWxseXplLXByZC1pbWFnZS9pY29ucy9oaWdzL2ZhdGlndWUucG5n");
+}
+
+.eyes {
+	background-image:
+		url("https://imgproxy.pillyze.io/hlGUVSeFIjT1R2qL8SZ-X1yJF2AWOaUja2gA6zENZP8/rs:fill:100:100/czM6Ly9waWxseXplLXByZC1pbWFnZS9pY29ucy9oaWdzL2V5ZXMucG5n");
+}
+
+.skincare {
+	background-image:
+		url("https://imgproxy.pillyze.io/9hxxZJcJXEN140bUHh9E3c1lQcp1Wbefbw0Rmnpt3Wo/rs:fill:100:100/czM6Ly9waWxseXplLXByZC1pbWFnZS9pY29ucy9oaWdzL3NraW5jYXJlLnBuZw");
+}
+
+.fat {
+	background-image:
+		url("https://imgproxy.pillyze.io/dkJw00WkM2gzj6zx85N-Hw8Na3X1_G4V-VNnTKO8wnY/rs:fill:100:100/czM6Ly9waWxseXplLXByZC1pbWFnZS9pY29ucy9oaWdzL2ZhdC5wbmc");
+}
+
+.blood-circulation {
+	background-image:
+		url("https://imgproxy.pillyze.io/rB1Q3HjFQm_teat6bKTSEZ34JiZRzUZw0BE5D1L_0fE/rs:fill:100:100/czM6Ly9waWxseXplLXByZC1pbWFnZS9pY29ucy9oaWdzL2Jsb29kX2NpcmN1bGF0aW9uLnBuZw");
+}
+
+.liver {
+	background-image:
+		url("https://imgproxy.pillyze.io/U42UAa-cp39jAGzftu9OzLrtJ9Cz-kijMpJGAsHfTfw/rs:fill:100:100/czM6Ly9waWxseXplLXByZC1pbWFnZS9pY29ucy9oaWdzL2xpdmVyLnBuZw");
+}
+
+.intestine {
+	background-image:
+		url("https://imgproxy.pillyze.io/xmFVESTN45bxZGMpCMw0pp8UQReukauvhiktsvvJ-0M/rs:fill:100:100/czM6Ly9waWxseXplLXByZC1pbWFnZS9pY29ucy9oaWdzL2ludGVzdGluZS5wbmc");
+}
+
+.sleep {
+	background-image:
+		url("https://imgproxy.pillyze.io/ldlFd0lIfxK6m0ocgqsmsar75vym5plnu3eP558xNao/rs:fill:100:100/czM6Ly9waWxseXplLXByZC1pbWFnZS9pY29ucy9oaWdzL3NsZWVwLnBuZw");
+}
+
+.immunity {
+	background-image:
+		url("https://imgproxy.pillyze.io/ycxN-UcS2CMAgOoBMpOSlkGtQO-5EQTD57Qgv3d5TjE/rs:fill:100:100/czM6Ly9waWxseXplLXByZC1pbWFnZS9pY29ucy9oaWdzL2ltbXVuaXR5LnBuZw");
+}
+
+.cholesterol {
+	background-image:
+		url("https://imgproxy.pillyze.io/kZQfKpEN1aePQh_mmtVq6x6it8_yXf-hLvkpcf-1lSY/rs:fill:100:100/czM6Ly9waWxseXplLXByZC1pbWFnZS9pY29ucy9oaWdzL2Nob2xlc3Rlcm9sLnBuZw");
+}
+
+.bones {
+	background-image:
+		url("https://imgproxy.pillyze.io/db4H5Es2BAexMxmVzlACxzC1L9kLQemmsawI9CNPjSY/rs:fill:100:100/czM6Ly9waWxseXplLXByZC1pbWFnZS9pY29ucy9oaWdzL2JvbmVzMi5wbmc");
+}
+
+.anti-aging {
+	background-image:
+		url("https://imgproxy.pillyze.io/0dtK5dYrsf4vU8VoK5W_qtUxytCyecT_d_DTqOlkcXY/rs:fill:100:100/czM6Ly9waWxseXplLXByZC1pbWFnZS9pY29ucy9oaWdzL2FudGktYWdpbmcucG5n");
+}
+
+.women {
+	background-image:
+		url("https://imgproxy.pillyze.io/q0M09XsdLPKjk8HI9eEN04NgMMLxzWU0Yc5GnNsuyF4/rs:fill:100:100/czM6Ly9waWxseXplLXByZC1pbWFnZS9pY29ucy9oaWdzL3dvbWVuLnBuZw");
+}
+
+.stomach {
+	background-image:
+		url("https://imgproxy.pillyze.io/bHlVxdaNQd6uc11mkXVq-WeSVX3dmqDmckjeOSZMTX0/rs:fill:100:100/czM6Ly9waWxseXplLXByZC1pbWFnZS9pY29ucy9oaWdzL3N0b21hY2gucG5n");
+}
+
+.men {
+	background-image:
+		url("https://imgproxy.pillyze.io/DcuMbV8F2YPJKBBkJCPrGevac7nu-_9ArXqKCoWF6qw/rs:fill:100:100/czM6Ly9waWxseXplLXByZC1pbWFnZS9pY29ucy9oaWdzL21lbi5wbmc");
+}
+
+.blood_pressure {
+	background-image:
+		url("https://imgproxy.pillyze.io/76KNDnfgnkUzTgBioLm_N84OyzwiM17oTVyBb7SFdDo/rs:fill:100:100/czM6Ly9waWxseXplLXByZC1pbWFnZS9pY29ucy9oaWdzL2Jsb29kX3ByZXNzdXJlLnBuZw");
+}
+
+.strength {
+	background-image:
+		url("https://imgproxy.pillyze.io/atB_jiWzEiNi-iN2OnnrcOUNvtrZn_dWypwPRllgXkk/rs:fill:100:100/czM6Ly9waWxseXplLXByZC1pbWFnZS9pY29ucy9oaWdzL3N0cmVuZ3RoLnBuZw");
+}
+
+.brain {
+	background-image:
+		url("https://imgproxy.pillyze.io/MFuRGlartQIX5LX5vd41oaQLN7NK4FlfRb3ctpEm0js/rs:fill:100:100/czM6Ly9waWxseXplLXByZC1pbWFnZS9pY29ucy9oaWdzL2JyYWluLnBuZw");
+}
+
+.blood_sugar {
+	background-image:
+		url("https://imgproxy.pillyze.io/ueQnM7QZ_04uOH7gliNGOwFTqy3yO-Li-I9u9VzQA7M/rs:fill:100:100/czM6Ly9waWxseXplLXByZC1pbWFnZS9pY29ucy9oaWdzL2Jsb29kX3N1Z2FyLnBuZw");
+}
+
+.neutral_fat {
+	background-image:
+		url("https://imgproxy.pillyze.io/kZQfKpEN1aePQh_mmtVq6x6it8_yXf-hLvkpcf-1lSY/rs:fill:100:100/czM6Ly9waWxseXplLXByZC1pbWFnZS9pY29ucy9oaWdzL2Nob2xlc3Rlcm9sLnBuZw");
+}
+
+.tooth {
+	background-image:
+		url("https://imgproxy.pillyze.io/zSvVwv0pJY-GPW2tuhsf1-IHSH7Jqx_ygo4UPRQKREg/rs:fill:100:100/czM6Ly9waWxseXplLXByZC1pbWFnZS9pY29ucy9oaWdzL3Rvb3RoLnBuZw");
+}
+
+.pregnant {
+	background-image:
+		url("https://imgproxy.pillyze.io/VEQ70eVSCWQ-d-oHhsSNTfAPtA49jX-gbZlThGS9zBo/rs:fill:100:100/czM6Ly9waWxseXplLXByZC1pbWFnZS9pY29ucy9oaWdzL3ByZWduYW50LnBuZw");
+}
+
+.hair_loss {
+	background-image:
+		url("https://imgproxy.pillyze.io/I8HSfgYXVdBb7zHaG9sPl4Zlp4hynkg94Fjsm7e8K7Y/rs:fill:100:100/czM6Ly9waWxseXplLXByZC1pbWFnZS9pY29ucy9oaWdzL2hhaXJfbG9zcy5wbmc");
+}
+
+.joint {
+	background-image:
+		url("https://imgproxy.pillyze.io/mxvTxbMtPCqn5cISM6AxfrK2XFCQG3gFoqXklu-FH1w/rs:fill:100:100/czM6Ly9waWxseXplLXByZC1pbWFnZS9pY29ucy9oaWdzL2pvaW50LnBuZw");
+}
+
+.menopause {
+	background-image:
+		url("https://imgproxy.pillyze.io/Dewk3IlumtR5hUS02edPNi8uSREyPMEU-CL31j8qHNc/rs:fill:100:100/czM6Ly9waWxseXplLXByZC1pbWFnZS9pY29ucy9zaWRlX2VmZmVjdHMvbWVub3BhdXNlLnBuZw");
+}
+
+.breath {
+	background-image:
+		url("https://imgproxy.pillyze.io/twSYw4y256mq_JdGUIf-rmCUJndn9X95xfkrbZbYMao/rs:fill:100:100/czM6Ly9waWxseXplLXByZC1pbWFnZS9pY29ucy9oaWdzL2JyZWF0aC5wbmc");
+}
+
+.thyroid {
+	background-image:
+		url("https://imgproxy.pillyze.io/0dXEHLf-lYAgVVmOhGgYKwFFs3PEWjTrin_5AF4Rvbs/rs:fill:100:100/czM6Ly9waWxseXplLXByZC1pbWFnZS9pY29ucy9oaWdzL3RoeXJvaWQucG5n");
+}
+
+.anemia {
+	background-image:
+		url("https://imgproxy.pillyze.io/liFTLnRRqcU8ptnEkyT0340I5L_WqLds8TXlo8iBfsU/rs:fill:100:100/czM6Ly9waWxseXplLXByZC1pbWFnZS9pY29ucy9oaWdzL2FuZW1pYS5wbmc");
+}
+
 /* 헤더 */
 .header {
 	/* display:flex; */
@@ -35,13 +183,10 @@ html>body {
 	overflow: hidden;
 }
 
-.logo-image {
-	width: 187px;
-	height: 47px;
+.logo-header {
 	position: absolute;
 	left: calc(50% - 575px);
 	top: 12px;
-	object-fit: cover;
 }
 
 .menu-item {
@@ -261,7 +406,7 @@ html>body {
 	font-size: 20px;
 	line-height: 24px;
 	font-weight: 700;
-	text-align: right; /* 텍스트를 가운데 정렬 */
+	text-align: right;
 }
 
 /* 건강 고민_section*/
@@ -349,142 +494,404 @@ html>body {
 	justify-content: center;
 }
 
-.fatigue {
-	background-image:
-		url("https://imgproxy.pillyze.io/ZMRFlYGcp8jgvkT0hiNtU6ZjmJTVf1hcUw4YnIZI0EU/rs:fill:100:100/czM6Ly9waWxseXplLXByZC1pbWFnZS9pY29ucy9oaWdzL2ZhdGlndWUucG5n");
+
+
+/* 회원가입 */
+.join-body {
+  background: #ffffff;
+  border-radius: 10px;
+  border-style: solid;
+  border-color: #d9d9d9;
+  border-width: 1px;
+  padding: 55px 111px 55px 111px;
+  width: 450px;
+  height: 450px;
+  position: absolute;
+  left: calc(50% - 225px);
+  top: 315px;
+}
+.logo-center {
+  position: absolute;
+  left: 25px;
+  top: 35px;
 }
 
-.eyes {
-	background-image:
-		url("https://imgproxy.pillyze.io/hlGUVSeFIjT1R2qL8SZ-X1yJF2AWOaUja2gA6zENZP8/rs:fill:100:100/czM6Ly9waWxseXplLXByZC1pbWFnZS9pY29ucy9oaWdzL2V5ZXMucG5n");
+.page_name {
+  color: #999999;
+  text-align: center;
+  font-family: "Inter-Medium", sans-serif;
+  font-size: 12px;
+  font-weight: 500;
+  position: absolute;
+  left: 25px;
+  top: 105px;
+  width: 90px;
+  height: 17px;
+}
+.join-group {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: flex-end;
+  justify-content: flex-start;
+  width: 167px;
+  position: absolute;
+  left: calc(50% - 83px);
+  top: 137px;
+}
+.login-id {
+  padding: 0px 10px 0px 10px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  align-self: stretch;
+  flex-shrink: 0;
+  height: 20px;
+  position: relative;
+}
+.icon-park-outline-people {
+  flex-shrink: 0;
+  width: 20px;
+  height: 20px;
+  position: relative;
+  overflow: visible;
+}
+.text {
+  background: #ffffff;
+  border-radius: 5px;
+  border-style: solid;
+  border-color: #d9d9d9;
+  border-width: 1px;
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  width: 100px;
+  height: 20px;
+  position: relative;
+}
+.div4 {
+  color: #9e9e9e;
+  text-align: left;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 10px;
+  font-weight: 400;
+  position: relative;
+}
+.login-pw {
+  padding: 0px 10px 0px 10px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  align-self: stretch;
+  flex-shrink: 0;
+  height: 20px;
+  position: relative;
+}
+.mdi-password-outline {
+  flex-shrink: 0;
+  width: 20px;
+  height: 20px;
+  position: relative;
+  overflow: visible;
+}
+.mdi-password {
+  flex-shrink: 0;
+  width: 20px;
+  height: 20px;
+  position: relative;
+  overflow: visible;
+}
+.name {
+  padding: 0px 10px 0px 10px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  align-self: stretch;
+  flex-shrink: 0;
+  height: 20px;
+  position: relative;
+}
+.icon-park-outline-edit-name {
+  flex-shrink: 0;
+  width: 20px;
+  height: 20px;
+  position: relative;
+  overflow: hidden;
+}
+.group {
+  width: 77.08%;
+  height: 79.17%;
+  position: absolute;
+  right: 14.58%;
+  left: 8.33%;
+  bottom: 12.5%;
+  top: 8.33%;
+  overflow: visible;
+}
+.nickname {
+  padding: 0px 10px 0px 10px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  align-self: stretch;
+  flex-shrink: 0;
+  height: 20px;
+  position: relative;
+}
+.icon-park-twotone-edit-name {
+  flex-shrink: 0;
+  width: 20px;
+  height: 20px;
+  position: relative;
+  overflow: hidden;
+}
+.mask-group {
+  height: auto;
+  position: absolute;
+  left: 1.67px;
+  top: 1.67px;
+  overflow: visible;
+}
+.cellphone-num {
+  padding: 0px 10px 0px 10px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  align-self: stretch;
+  flex-shrink: 0;
+  height: 20px;
+  position: relative;
+}
+.mingcute-phone-fill {
+  flex-shrink: 0;
+  width: 20px;
+  height: 20px;
+  position: relative;
+  overflow: hidden;
+}
+.group2 {
+  width: 83.19%;
+  height: 90.2%;
+  position: absolute;
+  right: 9.04%;
+  left: 7.77%;
+  bottom: 0.78%;
+  top: 9.02%;
+  overflow: visible;
+}
+.email {
+  padding: 0px 10px 0px 10px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  align-self: stretch;
+  flex-shrink: 0;
+  height: 20px;
+  position: relative;
+}
+.ic-outline-email {
+  flex-shrink: 0;
+  width: 20px;
+  height: 20px;
+  position: relative;
+  overflow: visible;
+}
+.next-button {
+  background: #ffe08c;
+  border-radius: 5px;
+  padding: 5px 24px 5px 24px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  width: 167px;
+  height: 32px;
+  position: absolute;
+  left: calc(50% - 84px);
+  top: 360px;
+}
+.div5 {
+  color: #000000;
+  text-align: center;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: 400;
+  position: relative;
+  width: 163px;
+  height: 32px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.div6 {
+  color: #9e9e9e;
+  text-align: left;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  position: absolute;
+  left: 25px;
+  top: 413px;
+}
+/* 회원가입 */
+/* 공통 속성 */
+.icon-size {
+  flex-shrink: 0;
+  width: 20px;
+  height: 20px;
+  position: relative;
+  overflow: hidden;
 }
 
-.skincare {
-	background-image:
-		url("https://imgproxy.pillyze.io/9hxxZJcJXEN140bUHh9E3c1lQcp1Wbefbw0Rmnpt3Wo/rs:fill:100:100/czM6Ly9waWxseXplLXByZC1pbWFnZS9pY29ucy9oaWdzL3NraW5jYXJlLnBuZw");
+.input-box {
+  padding: 0px 10px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  align-self: stretch;
+  flex-shrink: 0;
+  height: 20px;
+  position: relative;
 }
 
-.fat {
-	background-image:
-		url("https://imgproxy.pillyze.io/dkJw00WkM2gzj6zx85N-Hw8Na3X1_G4V-VNnTKO8wnY/rs:fill:100:100/czM6Ly9waWxseXplLXByZC1pbWFnZS9pY29ucy9oaWdzL2ZhdC5wbmc");
+.text-box {
+  background: #ffffff;
+  border-radius: 5px;
+  border-style: solid;
+  border-color: #d9d9d9;
+  border-width: 1px;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  width: 100px; /* 필요에 따라 width를 조정 */
+  height: 20px; /* input의 텍스트 입력 크기와 맞추기 위해 auto로 설정 */
+  font-size: 10px; /* 적절한 font-size 지정 */
+  box-sizing: border-box; /* padding을 포함한 크기를 유지하기 위해 */
 }
 
-.blood-circulation {
-	background-image:
-		url("https://imgproxy.pillyze.io/rB1Q3HjFQm_teat6bKTSEZ34JiZRzUZw0BE5D1L_0fE/rs:fill:100:100/czM6Ly9waWxseXplLXByZC1pbWFnZS9pY29ucy9oaWdzL2Jsb29kX2NpcmN1bGF0aW9uLnBuZw");
+.text-box::placeholder {
+  color: #9e9e9e; /* 플레이스홀더 텍스트 색상 조정 */
 }
 
-.liver {
-	background-image:
-		url("https://imgproxy.pillyze.io/U42UAa-cp39jAGzftu9OzLrtJ9Cz-kijMpJGAsHfTfw/rs:fill:100:100/czM6Ly9waWxseXplLXByZC1pbWFnZS9pY29ucy9oaWdzL2xpdmVyLnBuZw");
+.join-group {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: flex-end;
+  justify-content: flex-start;
+  width: 167px;
+  position: absolute;
+  left: calc(50% - 83px);
+  top: 137px;
 }
 
-.intestine {
-	background-image:
-		url("https://imgproxy.pillyze.io/xmFVESTN45bxZGMpCMw0pp8UQReukauvhiktsvvJ-0M/rs:fill:100:100/czM6Ly9waWxseXplLXByZC1pbWFnZS9pY29ucy9oaWdzL2ludGVzdGluZS5wbmc");
+/* 개별 스타일 */
+.join-body {
+  background: #ffffff;
+  border-radius: 10px;
+  border-style: solid;
+  border-color: #d9d9d9;
+  border-width: 1px;
+  padding: 55px 111px 55px 111px;
+  width: 450px;
+  height: 450px;
+  position: absolute;
+  left: calc(50% - 225px);
+  top: 315px;
 }
 
-.sleep {
-	background-image:
-		url("https://imgproxy.pillyze.io/ldlFd0lIfxK6m0ocgqsmsar75vym5plnu3eP558xNao/rs:fill:100:100/czM6Ly9waWxseXplLXByZC1pbWFnZS9pY29ucy9oaWdzL3NsZWVwLnBuZw");
+.logo-center {
+  position: absolute;
+  left: 25px;
+  top: 35px;
 }
 
-.immunity {
-	background-image:
-		url("https://imgproxy.pillyze.io/ycxN-UcS2CMAgOoBMpOSlkGtQO-5EQTD57Qgv3d5TjE/rs:fill:100:100/czM6Ly9waWxseXplLXByZC1pbWFnZS9pY29ucy9oaWdzL2ltbXVuaXR5LnBuZw");
+.page_name {
+  color: #999999;
+  text-align: center;
+  font-family: "Inter-Medium", sans-serif;
+  font-size: 12px;
+  font-weight: 500;
+  position: absolute;
+  left: 25px;
+  top: 105px;
+  width: 90px;
+  height: 17px;
 }
 
-.cholesterol {
-	background-image:
-		url("https://imgproxy.pillyze.io/kZQfKpEN1aePQh_mmtVq6x6it8_yXf-hLvkpcf-1lSY/rs:fill:100:100/czM6Ly9waWxseXplLXByZC1pbWFnZS9pY29ucy9oaWdzL2Nob2xlc3Rlcm9sLnBuZw");
+.next-button {
+  background: #ffe08c;
+  border-radius: 5px;
+  padding: 5px 24px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  width: 167px;
+  height: 32px;
+  position: absolute;
+  left: calc(50% - 84px);
+  top: 360px;
 }
 
-.bones {
-	background-image:
-		url("https://imgproxy.pillyze.io/db4H5Es2BAexMxmVzlACxzC1L9kLQemmsawI9CNPjSY/rs:fill:100:100/czM6Ly9waWxseXplLXByZC1pbWFnZS9pY29ucy9oaWdzL2JvbmVzMi5wbmc");
+.div5 {
+  color: #000000;
+  text-align: center;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: 400;
+  position: relative;
+  width: 163px;
+  height: 32px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-.anti-aging {
-	background-image:
-		url("https://imgproxy.pillyze.io/0dtK5dYrsf4vU8VoK5W_qtUxytCyecT_d_DTqOlkcXY/rs:fill:100:100/czM6Ly9waWxseXplLXByZC1pbWFnZS9pY29ucy9oaWdzL2FudGktYWdpbmcucG5n");
+.div6 {
+  color: #9e9e9e;
+  text-align: left;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  position: absolute;
+  left: 25px;
+  top: 413px;
 }
 
-.women {
-	background-image:
-		url("https://imgproxy.pillyze.io/q0M09XsdLPKjk8HI9eEN04NgMMLxzWU0Yc5GnNsuyF4/rs:fill:100:100/czM6Ly9waWxseXplLXByZC1pbWFnZS9pY29ucy9oaWdzL3dvbWVuLnBuZw");
+/* 아이콘 클래스들에 공통 클래스 추가 */
+.icon-park-outline-people,
+.mdi-password-outline,
+.mdi-password,
+.icon-park-outline-edit-name,
+.icon-park-twotone-edit-name,
+.mingcute-phone-fill,
+.ic-outline-email {
+  @extend .icon-size;
 }
 
-.stomach {
-	background-image:
-		url("https://imgproxy.pillyze.io/bHlVxdaNQd6uc11mkXVq-WeSVX3dmqDmckjeOSZMTX0/rs:fill:100:100/czM6Ly9waWxseXplLXByZC1pbWFnZS9pY29ucy9oaWdzL3N0b21hY2gucG5n");
-}
-
-.men {
-	background-image:
-		url("https://imgproxy.pillyze.io/DcuMbV8F2YPJKBBkJCPrGevac7nu-_9ArXqKCoWF6qw/rs:fill:100:100/czM6Ly9waWxseXplLXByZC1pbWFnZS9pY29ucy9oaWdzL21lbi5wbmc");
-}
-
-.blood_pressure {
-	background-image:
-		url("https://imgproxy.pillyze.io/76KNDnfgnkUzTgBioLm_N84OyzwiM17oTVyBb7SFdDo/rs:fill:100:100/czM6Ly9waWxseXplLXByZC1pbWFnZS9pY29ucy9oaWdzL2Jsb29kX3ByZXNzdXJlLnBuZw");
-}
-
-.strength {
-	background-image:
-		url("https://imgproxy.pillyze.io/atB_jiWzEiNi-iN2OnnrcOUNvtrZn_dWypwPRllgXkk/rs:fill:100:100/czM6Ly9waWxseXplLXByZC1pbWFnZS9pY29ucy9oaWdzL3N0cmVuZ3RoLnBuZw");
-}
-
-.brain {
-	background-image:
-		url("https://imgproxy.pillyze.io/MFuRGlartQIX5LX5vd41oaQLN7NK4FlfRb3ctpEm0js/rs:fill:100:100/czM6Ly9waWxseXplLXByZC1pbWFnZS9pY29ucy9oaWdzL2JyYWluLnBuZw");
-}
-
-.blood_sugar {
-	background-image:
-		url("https://imgproxy.pillyze.io/ueQnM7QZ_04uOH7gliNGOwFTqy3yO-Li-I9u9VzQA7M/rs:fill:100:100/czM6Ly9waWxseXplLXByZC1pbWFnZS9pY29ucy9oaWdzL2Jsb29kX3N1Z2FyLnBuZw");
-}
-
-.neutral_fat {
-	background-image:
-		url("https://imgproxy.pillyze.io/kZQfKpEN1aePQh_mmtVq6x6it8_yXf-hLvkpcf-1lSY/rs:fill:100:100/czM6Ly9waWxseXplLXByZC1pbWFnZS9pY29ucy9oaWdzL2Nob2xlc3Rlcm9sLnBuZw");
-}
-
-.tooth {
-	background-image:
-		url("https://imgproxy.pillyze.io/zSvVwv0pJY-GPW2tuhsf1-IHSH7Jqx_ygo4UPRQKREg/rs:fill:100:100/czM6Ly9waWxseXplLXByZC1pbWFnZS9pY29ucy9oaWdzL3Rvb3RoLnBuZw");
-}
-
-.pregnant {
-	background-image:
-		url("https://imgproxy.pillyze.io/VEQ70eVSCWQ-d-oHhsSNTfAPtA49jX-gbZlThGS9zBo/rs:fill:100:100/czM6Ly9waWxseXplLXByZC1pbWFnZS9pY29ucy9oaWdzL3ByZWduYW50LnBuZw");
-}
-
-.hair_loss {
-	background-image:
-		url("https://imgproxy.pillyze.io/I8HSfgYXVdBb7zHaG9sPl4Zlp4hynkg94Fjsm7e8K7Y/rs:fill:100:100/czM6Ly9waWxseXplLXByZC1pbWFnZS9pY29ucy9oaWdzL2hhaXJfbG9zcy5wbmc");
-}
-
-.joint {
-	background-image:
-		url("https://imgproxy.pillyze.io/mxvTxbMtPCqn5cISM6AxfrK2XFCQG3gFoqXklu-FH1w/rs:fill:100:100/czM6Ly9waWxseXplLXByZC1pbWFnZS9pY29ucy9oaWdzL2pvaW50LnBuZw");
-}
-
-.menopause {
-	background-image:
-		url("https://imgproxy.pillyze.io/Dewk3IlumtR5hUS02edPNi8uSREyPMEU-CL31j8qHNc/rs:fill:100:100/czM6Ly9waWxseXplLXByZC1pbWFnZS9pY29ucy9zaWRlX2VmZmVjdHMvbWVub3BhdXNlLnBuZw");
-}
-
-.breath {
-	background-image:
-		url("https://imgproxy.pillyze.io/twSYw4y256mq_JdGUIf-rmCUJndn9X95xfkrbZbYMao/rs:fill:100:100/czM6Ly9waWxseXplLXByZC1pbWFnZS9pY29ucy9oaWdzL2JyZWF0aC5wbmc");
-}
-
-.thyroid {
-	background-image:
-		url("https://imgproxy.pillyze.io/0dXEHLf-lYAgVVmOhGgYKwFFs3PEWjTrin_5AF4Rvbs/rs:fill:100:100/czM6Ly9waWxseXplLXByZC1pbWFnZS9pY29ucy9oaWdzL3RoeXJvaWQucG5n");
-}
-
-.anemia {
-	background-image:
-		url("https://imgproxy.pillyze.io/liFTLnRRqcU8ptnEkyT0340I5L_WqLds8TXlo8iBfsU/rs:fill:100:100/czM6Ly9waWxseXplLXByZC1pbWFnZS9pY29ucy9oaWdzL2FuZW1pYS5wbmc");
+/* 입력 필드들에 공통 클래스 추가 */
+.login-id,
+.login-pw,
+.name,
+.nickname,
+.cellphone-num,
+.email {
+  @extend .input-box;
 }

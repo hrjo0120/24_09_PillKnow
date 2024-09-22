@@ -28,12 +28,12 @@
 	<header>
 		<div class="header">
 			<a href="/">
-				<img class="logo-image"src="/images/logo_name.png" />
+				<img class="logo-header logo-image"src="/images/logo_name.png" />
 			</a>
 			<div class="flex-grow"></div>
 			<ul class="menu-item">
 				<li><a class="menu-item-text hover:underline" href="">커뮤니티</a></li>
-				<li><a class="menu-item-text hover:underline" href="">회원가입</a></li>
+				<li><a class="menu-item-text hover:underline" href="../member/join">회원가입</a></li>
 				<li><a class="menu-item-text hover:underline" href="">로그인</a></li>
 			</ul>
 		</div>
